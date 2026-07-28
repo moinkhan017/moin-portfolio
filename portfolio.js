@@ -1,7 +1,7 @@
 const lines = [
-  "I'm moin khan, a final-year B.Tech Computer Science student with a passion for building modern, responsive websites. I specialize in C++,HTML, CSS, and JavaScript, and I'm currently learning full-stack development to bring my ideas to life",
-  "I'm always curious about how things work on the web and love turning complex problems into clean, user-friendly designs. My goal is to become a software Engineer that know by everyone.I believe learning by doing is the best way, so I build, break, and rebuild until it clicks.",
-  "When I'm not coding, you'll find me exploring design inspiration or learning something new about tech",
+  "I’m Moin Khan, a final-year B.Tech Computer Science student and a full-stack developer specializing in the MERN stack.With a strong foundation in C++ and core web technologies, I approach problems analytically and translate them into efficient, production-ready solutions.",
+  "I believe in learning through execution debugging deeply, and continuously refining my approach, so I build, break, and rebuild until it clicks.",
+  "Outside of development, I focus on strengthening my problem-solving skills and writing cleaner, more efficient code through continuous practice and iteration.",
   "I am Analytical Passionate and Unstoppable"
 ];
 

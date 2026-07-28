@@ -9,16 +9,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Gemstones&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="icon" type="image/x-icon" href="userport.jpg">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="logo_name"><span style="color:#2979ff">Moin</span> Khan</h1>
+        <h1 class="logo_name"><span style="color:#2979ff">Port</span>folio</h1>
         <div class="nav_bar">
             <p class="nav_item"><a href="#about">About Me</a></p>
             <p class="nav_item"><a href="#skill">Skill</a></p>
             <p class="nav_item"><a href="#projects">Projects</a></p>
             <p class="nav_item"><a href="#last">contact me</a></p>
-            <p class="nav_item"><a href="/resume.doc.pdf" target="_blank">Resume</a></p>
+            <p class="nav_item"><a href="resume.doc.pdf" target="_blank">Resume</a></p>
         </div>
     </header>
     <main>
@@ -48,26 +55,45 @@
         <section class="about">
           <h2 id="skill_heading"><span style="color: #8d3b00;">S</span>kills</h2>
           <div id="skill">
+                <div class="skills"><img src="C_Logo.png" alt="" style="width: 75px; height: 78px;"></div>
+                <div class="skills"><img src="c-logo-icon-28389.png" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="js.png" alt="" style="width:90px ; height: 95px;"></div>
+                <div class="skills"><img src="Images\Intermediate SQL_ PostgreSQL, Subqueries, and more! – Dataquest.jpg" alt="" style="width:90px; height: 90px;"></div>
+
+                <div id="breakLine"></div>
+
                 <div class="skills"><img src="html-5.png" alt="" style="width: 70px ; height: 70px;"></div>
                 <div class="skills"><img src="css-3.png" alt=""style="width: 70px ; height: 70px;"></div>
-                <div class="skills"><img src="js.png" alt="" style="width:90px ; height: 95px;"></div>
-                <div class="skills"><img src="C_Logo.png" alt="" style="width: 75px; height: 78px;"></div>  
-                <div class="skills"><img src="c-logo-icon-28389.png" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="Images\MongoDB Logo PNG Vector (SVG) Free Download.jpg" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="Images\Express JS Icon Gallery for Developers and Designers.jpg" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="react logo.png" alt="" style="width: 85px; height:80px;"></div> 
+                <div class="skills"><img src="node js logo.png" alt="" style="width: 100px; height:90px;"></div> 
+
+                <div id="breakLine"></div>
+
+                <div class="skills"><img src="Images\download.jpg" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="Images\Tailwind CSS - Rapidly build modern websites without ever leaving your HTML_.jpg" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="Images\MySQL Logo PNG Vector (EPS) Free Download.jpg" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="Images\Material UI vs Joy UI vs Base UI.jpg" alt="" style="width:90px; height: 90px;"></div>
+                <div class="skills"><img src="Images\Google Image Result for https___kodius_com__app_immutable_assets_building-elegant-rest-apis.B82oKfGx.jpg" alt="" style="width:90px; height: 90px;"></div>
                 
                 <div id="breakLine"></div>
                 
                 <div class="skills"><img src="icons8-git-48.png" alt="" style="width: 93px; height:95px; background-color: black;"></div>  
                 <div class="skills"><img src="git hub icon.png" alt="" style="width: 135px; height:112px;"></div>  
-                <div class="skills"><img src="react logo.png" alt="" style="width: 85px; height:80px;"></div>  
-                <div class="skills"><img src="node js logo.png" alt="" style="width: 100px; height:90px;"></div>  
                 </div >
         </section>
 
-        <section id="projects">
+        <div id="projects">
             <h2 id="project_heading"><span style="color: #8d3b00;">T</span>hese are some of my projects</h2>
 
-           <div id="project">
-        <div class="card" style="width: 18rem;">
+<div class="swiper  proSwiper" id="project">
+
+    <div class="swiper-wrapper" data-aos="fade-up"
+     data-aos-duration="3500">
+
+<div class="swiper-slide">
+<div class="card" style="width: 18rem;">
     <img src="download.png" class="card-img-top" alt="...">
  <div class="card-body">   
     <h5 class="card-title">Portfolio</h5>
@@ -76,8 +102,10 @@
     <a href="#" class="btn btn-primary">Visit</a>
   </div>
 </div>
+</div>
 
- <div class="card" style="width: 18rem;">
+<div class="swiper-slide">
+ <div class=" card" style="width: 18rem;">
   <img src="banking logo.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Banking Management system</h5>
@@ -87,8 +115,11 @@ banking simulation.</p>
     <a href="#" class="btn btn-primary">Visit</a>
   </div>
 </div>
+</div>
 
-      <div class="card" style="width: 18rem;">
+
+<div class="swiper-slide">
+  <div class="card" style="width: 18rem;">
   <img src="weather logo.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Weather By City</h5>
@@ -98,7 +129,9 @@ condition-based visuals..</p>
     <a href="#" class="btn btn-primary">Visit</a>
   </div>
 </div>
+</div>
 
+<div class="swiper-slide">
   <div class="card" style="width: 18rem;">
   <img src="simon-removebg-preview.png" class="card-img-top" alt="...">
   <div class="card-body">
@@ -107,21 +140,46 @@ condition-based visuals..</p>
     <a href="https://moinkhan017.github.io/Simon-Game/" class="btn btn-primary">Play</a>
   </div>
 </div>
+</div>
 
 
-      
-        </section>
+<div class="swiper-slide">
+<div class="card" style="width: 18rem;">
+  <img src="Images\compass-regular-full.svg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PlanOra</h5>
+    <p class="card-text">Developed a full-stack accom. platform with  reviews, uploads, and geolocation using Node.js, Express.js, MongoDB,and EJS. Implemented authentication and authorization with Passport,session management, Cloudinary integration, and protected user operations.
+    </p>
+    <a href="https://moinkhan017.github.io/Simon-Game/" class="btn btn-primary">Visit</a>
+  </div>
+</div>
+</div > 
+
+
+
+</div>
+<div class="swiper-pagination"></div>
+</div>
     </main>
     <footer id="last">
         <h1>Let's built together....</h1>
         <p>Get in touch</p>
         <section class="info">
-            <a href="" id="link" ><i class="fa-brands fa-linkedin"></i>Linkdn</a>
-            <a href="" id="mail"><i class="fa-solid fa-envelope"></i>Email</a>
-            <a href="" id="git"><i class="fa-brands fa-github"></i>Githube</a>
-            <a href="" id="what"><i class="fa-brands fa-whatsapp"></i>WhatApp</a>
+            <a href="https://www.linkedin.com/in/moin-khan-se/" id="link" ><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+            <a href="mailto:moinmk09khan@gmail.com" id="mail"><i class="fa-solid fa-envelope"></i>Email</a>
+            <a href="https://github.com/moinkhan017" id="git"><i class="fa-brands fa-github"></i>GitHub</a>
+            <a href="https://wa.me/917877641753?text=Hello%20Moin%20Khan" target="_blank" id="what"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
         </section>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="portfolio.js"></script>
+
+    <script>
+    AOS.init();
+   </script>
+   <script src="pro-swiper.js"></script>
 </body>
 </html>
